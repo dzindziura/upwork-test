@@ -16,11 +16,16 @@ Follow these steps to set up the project:
 3. Environment Configuration: Copy .env.example to .env and configure your environment variables as needed:
    ```sh
    cp .env.example .env
+
+   
    
 4. Generate Application Key:
    ```sh
    php artisan key:generate
-
+5. ENV:
+   ```sh
+   QUEUE_CONNECTION=database
+   
 # Running Migrations
 
 ## Before running the migrations, ensure your database configuration is correctly set up in the .env file. Then run:
@@ -34,6 +39,10 @@ Follow these steps to set up the project:
 1. Start the Development Server:
    ```sh
    php artisan serve
+
+1. Start the Queue:
+   ```sh
+   php artisan queue:work
    
 2. Send a POST Request: You can use tools like Postman or curl to send a POST request to the endpoint. Example using curl:
    ```sh
