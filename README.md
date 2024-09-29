@@ -6,8 +6,8 @@ Follow these steps to set up the project:
 
 1. **Clone the Repository:**
    ```sh
-   git clone [<repository-url>](https://github.com/dzindziura/upwork-test.git)
-   cd [<repository-folder>]
+   git clone https://github.com/dzindziura/upwork-test.git
+   cd upwork-test
    
 2. Install Dependencies: Ensure you have Composer installed on your machine. Then run:
    ```sh
